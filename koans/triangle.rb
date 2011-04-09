@@ -14,7 +14,22 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-  # WRITE THIS CODE
+  temp = [a,b,c]
+  temp.each {|x|
+    if (x < 1)
+      raise TriangleError.new("error")
+    end
+  }
+  case temp.uniq.size
+    when 1 then :equilateral
+    when 2 then
+        ordered = temp.sort
+        if (ordered[0] + ordered[1] <= ordered[2])
+          raise TriangleError.new("sides do not add up")
+        end
+      :isosceles
+    else :scalene
+  end
 end
 
 # Error class used in part 2.  No need to change this code.

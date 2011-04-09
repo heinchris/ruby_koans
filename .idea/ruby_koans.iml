@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="console/config/boot.rb" />
+    </requirement>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] railties (v3.0.5, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v3.0.5, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v3.0.5, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/actionmailer-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v3.0.5, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/rails-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v3.0.5, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v3.0.5, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/activeresource-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v1.0.10, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/bundler-1.0.10)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v3.0.5, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /Users/chein/.rvm/gems/ruby-1.9.2-p180/gems/rake-0.8.7)" level="application" />
+  </component>
+</module>
+
